@@ -19,8 +19,7 @@ const List = ({ items, removeItem, editItem }) => {
               <button
                 type='button'
                 className='edit-btn'
-                onClick={() => editItem(id)}
-               
+                onClick={() => editItem(id)} 
               >
                 <FaEdit  />
               </button>
